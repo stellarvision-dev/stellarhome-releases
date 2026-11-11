@@ -1,5 +1,6 @@
 {
   "schema": 1,
+  "serial": 2,
   "apps": [
     {
       "id": "stellarview",
@@ -39,7 +40,7 @@
     },
     {
       "id": "stellarmail",
-      "name": "별멜",
+      "name": "별메일",
       "summary": "네이버·Gmail·네이버웍스 메일 계정 여러 개를 한 창에서 사용합니다.",
       "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/stellarmail.png",
       "order": 30,
@@ -53,22 +54,6 @@
       "closeToUpdate": true,
       "requires": [],
       "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarmail", "%LOCALAPPDATA%\\ai.stellarvision.stellarmail"]
-    },
-    {
-      "id": "sami",
-      "name": "SAMI",
-      "summary": "여러 Claude 터미널과 프로젝트, 계정을 한 창에서 다루는 작업 환경입니다.",
-      "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/sami.png",
-      "order": 40,
-      "repo": "kimblue1016/sami-releases",
-      "source": "tag-redirect",
-      "installer": "Sami_{version}_x64-setup.exe",
-      "pubkey": "RWQogbLb/CqDLSklbm3dMIe0wC4qlVdFJafa1lBtLEZrK169ZS3qqJRy",
-      "productName": "Sami",
-      "scope": "perMachine",
-      "exe": "sami.exe",
-      "requires": ["claude"],
-      "dataDirs": []
     }
   ]
 }
