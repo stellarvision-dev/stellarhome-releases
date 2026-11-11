@@ -14,6 +14,7 @@
       "productName": "stellarview",
       "scope": "currentUser",
       "exe": "stellarview.exe",
+      "closeToUpdate": true,
       "requires": ["claude"],
       "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarview", "%LOCALAPPDATA%\\ai.stellarvision.stellarview"],
       "manual": "https://apps.stellarvision.ai/stellarview/"
@@ -31,6 +32,7 @@
       "productName": "stellardoc",
       "scope": "currentUser",
       "exe": "stellardoc.exe",
+      "closeToUpdate": true,
       "requires": ["claude"],
       "dataDirs": ["%APPDATA%\\ai.stellarvision.stellardoc", "%LOCALAPPDATA%\\ai.stellarvision.stellardoc"],
       "manual": "https://apps.stellarvision.ai/stellardoc/manual/"
