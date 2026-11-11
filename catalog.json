@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "apps": [
+    {
+      "id": "stellarview",
+      "name": "별뷰",
+      "summary": "위성영상(GeoTIFF·KOMPSAT·Pleiades 등)과 일반 이미지를 보고, 영상 옆 AI 터미널에서 Claude와 함께 작업합니다.",
+      "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/stellarview.png",
+      "order": 10,
+      "repo": "stellarvision-dev/stellarview-releases",
+      "source": "latest-json",
+      "installer": "stellarview_{version}_x64-setup.exe",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEY4NTI3REFCQjY4MEI0OTcKUldTWHRJQzJxMzFTK0NHV3VNSUhvcVJrQVFNUDJ6TmRKNFUrNnVvMmhYV2pTUTAxWGVTb0N6aW8K",
+      "productName": "stellarview",
+      "scope": "currentUser",
+      "exe": "stellarview.exe",
+      "requires": ["claude"],
+      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarview", "%LOCALAPPDATA%\\ai.stellarvision.stellarview"],
+      "manual": "https://apps.stellarvision.ai/stellarview/"
+    },
+    {
+      "id": "stellardoc",
+      "name": "별독",
+      "summary": "한글(hwpx)·워드(docx)·pdf 문서를 보고, Claude와 함께 수정합니다. 변경 내용 비교와 되돌리기를 지원합니다.",
+      "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/stellardoc.png",
+      "order": 20,
+      "repo": "stellarvision-dev/stellardoc-releases",
+      "source": "latest-json",
+      "installer": "stellardoc_{version}_x64-setup.exe",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDUyNTEyQUZCOUIxOTAzOUIKUldTYkF4bWIreXBSVW03OWJsRFUxSmIyYVdlYklPMmFYTHAxVWNVOVlKUTNVeHlaNXJpSHFSSnkK",
+      "productName": "stellardoc",
+      "scope": "currentUser",
+      "exe": "stellardoc.exe",
+      "requires": ["claude"],
+      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellardoc", "%LOCALAPPDATA%\\ai.stellarvision.stellardoc"],
+      "manual": "https://apps.stellarvision.ai/stellardoc/manual/"
+    },
+    {
+      "id": "stellarmail",
+      "name": "별멜",
+      "summary": "네이버·Gmail·네이버웍스 메일 계정 여러 개를 한 창에서 사용합니다.",
+      "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/stellarmail.png",
+      "order": 30,
+      "repo": "stellarvision-dev/stellarmail-releases",
+      "source": "latest-json",
+      "installer": "stellarmail_{version}_x64-setup.exe",
+      "pubkey": "",
+      "productName": "stellarmail",
+      "scope": "currentUser",
+      "exe": "stellarmail.exe",
+      "requires": [],
+      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarmail", "%LOCALAPPDATA%\\ai.stellarvision.stellarmail"],
+      "hidden": true
+    },
+    {
+      "id": "sami",
+      "name": "SAMI",
+      "summary": "여러 Claude 터미널과 프로젝트, 계정을 한 창에서 다루는 작업 환경입니다.",
+      "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/sami.png",
+      "order": 40,
+      "repo": "kimblue1016/sami-releases",
+      "source": "tag-redirect",
+      "installer": "Sami_{version}_x64-setup.exe",
+      "pubkey": "RWQogbLb/CqDLSklbm3dMIe0wC4qlVdFJafa1lBtLEZrK169ZS3qqJRy",
+      "productName": "Sami",
+      "scope": "perMachine",
+      "exe": "sami.exe",
+      "requires": ["claude"],
+      "dataDirs": []
+    }
+  ]
+}
