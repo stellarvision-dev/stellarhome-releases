@@ -46,13 +46,13 @@
       "repo": "stellarvision-dev/stellarmail-releases",
       "source": "latest-json",
       "installer": "stellarmail_{version}_x64-setup.exe",
-      "pubkey": "",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDg5NDlBMUY4NjZBNjA3NzMKUldSekI2Wm0rS0ZKaVhFUGFEejN4OTdCV0lqcUxRSjdpVHM4OFdUN0Vub2N0NU1pa081bjNiVlgK",
       "productName": "stellarmail",
       "scope": "currentUser",
       "exe": "stellarmail.exe",
+      "closeToUpdate": true,
       "requires": [],
-      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarmail", "%LOCALAPPDATA%\\ai.stellarvision.stellarmail"],
-      "hidden": true
+      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarmail", "%LOCALAPPDATA%\\ai.stellarvision.stellarmail"]
     },
     {
       "id": "sami",
