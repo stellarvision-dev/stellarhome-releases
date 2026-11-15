@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "serial": 4,
+  "serial": 5,
   "apps": [
     {
       "id": "stellarview",
@@ -54,6 +54,23 @@
       "closeToUpdate": true,
       "requires": [],
       "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarmail", "%LOCALAPPDATA%\\ai.stellarvision.stellarmail"]
+    },
+    {
+      "id": "stellarzip",
+      "name": "별집",
+      "summary": "ZIP·7Z·TAR 같은 압축 파일을 만들고 풉니다. 풀지 않고 사진을 미리 보고, 손상된 ZIP을 복구합니다.",
+      "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/stellarzip.png",
+      "order": 40,
+      "repo": "stellarvision-dev/stellarzip-releases",
+      "source": "latest-json",
+      "installer": "stellarzip_{version}_x64-setup.exe",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDAxRkY4NzUyMTkzNUY5MDcKUldRSCtUVVpVb2YvQVJ5eDhKMWNIU3dmT0d6UHA5cTdXQ2VoRmZqbjNoVFduZWhaTGY1ZEV0clEK",
+      "productName": "stellarzip",
+      "scope": "currentUser",
+      "exe": "stellarzip.exe",
+      "closeToUpdate": true,
+      "requires": [],
+      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarzip", "%LOCALAPPDATA%\\ai.stellarvision.stellarzip"]
     }
   ]
 }
