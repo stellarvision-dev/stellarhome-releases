@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "serial": 6,
+  "serial": 7,
   "apps": [
     {
       "id": "stellarview",
@@ -95,7 +95,7 @@
       "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/sami.png",
       "order": 50,
       "repo": "stellarvision-dev/sami-releases",
-      "source": "tag-redirect",
+      "source": "latest-json",
       "installer": "Sami_{version}_x64-setup.exe",
       "pubkey": "RWQogbLb/CqDLSklbm3dMIe0wC4qlVdFJafa1lBtLEZrK169ZS3qqJRy",
       "productName": "Sami",
