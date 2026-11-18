@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "serial": 5,
+  "serial": 6,
   "apps": [
     {
       "id": "stellarview",
@@ -16,8 +16,13 @@
       "scope": "currentUser",
       "exe": "stellarview.exe",
       "closeToUpdate": true,
-      "requires": ["claude"],
-      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarview", "%LOCALAPPDATA%\\ai.stellarvision.stellarview"],
+      "requires": [
+        "claude"
+      ],
+      "dataDirs": [
+        "%APPDATA%\\ai.stellarvision.stellarview",
+        "%LOCALAPPDATA%\\ai.stellarvision.stellarview"
+      ],
       "manual": "https://apps.stellarvision.ai/stellarview/"
     },
     {
@@ -34,8 +39,13 @@
       "scope": "currentUser",
       "exe": "stellardoc.exe",
       "closeToUpdate": true,
-      "requires": ["claude"],
-      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellardoc", "%LOCALAPPDATA%\\ai.stellarvision.stellardoc"],
+      "requires": [
+        "claude"
+      ],
+      "dataDirs": [
+        "%APPDATA%\\ai.stellarvision.stellardoc",
+        "%LOCALAPPDATA%\\ai.stellarvision.stellardoc"
+      ],
       "manual": "https://apps.stellarvision.ai/stellardoc/manual/"
     },
     {
@@ -53,7 +63,10 @@
       "exe": "stellarmail.exe",
       "closeToUpdate": true,
       "requires": [],
-      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarmail", "%LOCALAPPDATA%\\ai.stellarvision.stellarmail"]
+      "dataDirs": [
+        "%APPDATA%\\ai.stellarvision.stellarmail",
+        "%LOCALAPPDATA%\\ai.stellarvision.stellarmail"
+      ]
     },
     {
       "id": "stellarzip",
@@ -70,7 +83,47 @@
       "exe": "stellarzip.exe",
       "closeToUpdate": true,
       "requires": [],
-      "dataDirs": ["%APPDATA%\\ai.stellarvision.stellarzip", "%LOCALAPPDATA%\\ai.stellarvision.stellarzip"]
+      "dataDirs": [
+        "%APPDATA%\\ai.stellarvision.stellarzip",
+        "%LOCALAPPDATA%\\ai.stellarvision.stellarzip"
+      ]
+    },
+    {
+      "id": "sami",
+      "name": "SAMI",
+      "summary": "여러 Claude 터미널과 프로젝트, 계정을 한 창에서 다루는 작업 환경입니다.",
+      "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/sami.png",
+      "order": 50,
+      "repo": "stellarvision-dev/sami-releases",
+      "source": "tag-redirect",
+      "installer": "Sami_{version}_x64-setup.exe",
+      "pubkey": "RWQogbLb/CqDLSklbm3dMIe0wC4qlVdFJafa1lBtLEZrK169ZS3qqJRy",
+      "productName": "Sami",
+      "scope": "perMachine",
+      "exe": "sami.exe",
+      "requires": [
+        "claude"
+      ],
+      "dataDirs": []
+    },
+    {
+      "id": "stellarwatch",
+      "name": "별측",
+      "summary": "서버·CI·서비스 상태를 한 화면에서 확인합니다.",
+      "icon": "https://raw.githubusercontent.com/stellarvision-dev/stellarhome-releases/main/icons/stellarwatch.png",
+      "order": 60,
+      "repo": "stellarvision-dev/stellarwatch-releases",
+      "source": "latest-json",
+      "installer": "stellarwatch_{version}_x64-setup.exe",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEMwMkJGRkU5RTU0MTdEOUUKUldTZWZVSGw2Zjhyd09lQkZiayt5dHlxTG1KSXpuVEZKczhuUXcyTXYzK0JUSkdhbElxczBkTUEK",
+      "productName": "stellarwatch",
+      "scope": "currentUser",
+      "exe": "stellarwatch.exe",
+      "closeToUpdate": true,
+      "dataDirs": [
+        "%APPDATA%\u0007i.stellarvision.stellarwatch",
+        "%LOCALAPPDATA%\u0007i.stellarvision.stellarwatch"
+      ]
     }
   ]
 }
